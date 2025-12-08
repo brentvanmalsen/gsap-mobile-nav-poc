@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // 1. Hamburger → kruis
+  // 1. Hamburger (2 lijnen) → kruis
   tl.to(
     ".line-1",
     {
@@ -28,15 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   tl.to(
     ".line-2",
-    {
-      opacity: 0,
-      duration: 0.2
-    },
-    0
-  );
-
-  tl.to(
-    ".line-3",
     {
       y: 0,
       rotation: -45,
