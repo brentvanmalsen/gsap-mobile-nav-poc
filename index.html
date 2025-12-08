@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>STMPD Mobile Equalizer Nav – GSAP POC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <!-- PHONE FRAME -->
+  <div class="device-frame">
+    <!-- HERO / CLOSED STATE -->
+    <header class="hero">
+      <div class="hero-inner">
+        <div class="hero-logo">
+          STMPD RCRDS
+        </div>
+
+        <!-- HAMBURGER / CLOSE -->
+        <button class="menu-toggle" aria-label="Toggle navigation">
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- EQUALIZER OVERLAY -->
+    <div class="nav-overlay">
+      <div class="bars-wrapper">
+        <div class="bars">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+      </div>
+
+      <nav class="overlay-nav">
+        <a href="#" class="overlay-link">STUDIOS</a>
+        <a href="#" class="overlay-link">WORK</a>
+        <a href="#" class="overlay-link">SERVICES</a>
+        <a href="#" class="overlay-link">TEAM</a>
+        <a href="#" class="overlay-link">ATMOS</a>
+      </nav>
+    </div>
+  </div>
+</body>
+</html>
